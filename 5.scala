@@ -13,7 +13,7 @@ abstract class Polygon(edges: List[Int]) {
   val area: Double
 }
 
-class Triangle(edges: List[Int]） extends Polygon(edges) {
+class Triangle(edges: List[Int]) extends Polygon(edges) {
   val a = edges(0)
   val b = edges(1)
   val c = edges(2)
